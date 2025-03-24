@@ -30,7 +30,7 @@ function RoomList() {
 
   return (
     <div className="room-list">
-      <h2> Available Rooms</h2>
+      <h2> Rooms Available</h2>
       <ul>
         {rooms?.map((room: Room, key) => {
           return (
